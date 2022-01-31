@@ -6,6 +6,6 @@ outputs:
   fact:
     description: Resulting cat fact from the https://cat-fact.herokuapp.com/facts api
     
- runs: 
+runs: 
   using: "docker"
   image: "Dockerfile"
